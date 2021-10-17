@@ -1,0 +1,606 @@
+2021-10-17 13:09:25.919 +02:00 [INF] Entity Framework Core 5.0.10 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: using lazy-loading proxies 
+2021-10-17 13:09:25.971 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2021-10-17 13:09:25.986 +02:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2021-10-17 13:09:25.988 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2021-10-17 13:09:25.990 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2021-10-17 13:09:26.264 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2021-10-17 13:09:26.277 +02:00 [INF] No migrations were applied. The database is already up to date.
+2021-10-17 13:09:26.295 +02:00 [INF] User profile is available. Using 'C:\Users\marco\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-17 13:09:26.430 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-17 13:09:26.431 +02:00 [INF] Hosting environment: Development
+2021-10-17 13:09:26.432 +02:00 [INF] Content root path: C:\Users\marco\source\repos\BlazorAppExampleSink\Server
+2021-10-17 13:09:26.454 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost/_framework/debug/ws-proxy?browser=ws%3A%2F%2Flocalhost%3A57114%2Fdevtools%2Fbrowser%2F36bd7ccd-f717-4b35-8ac8-11a07c57d8b5 - -
+2021-10-17 13:09:26.662 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost/_framework/debug/ws-proxy?browser=ws%3A%2F%2Flocalhost%3A57114%2Fdevtools%2Fbrowser%2F36bd7ccd-f717-4b35-8ac8-11a07c57d8b5 - - - 302 - - 209.5395ms
+2021-10-17 13:09:29.154 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44322/_framework/blazor.webassembly.js - -
+2021-10-17 13:09:29.176 +02:00 [INF] The file /_framework/blazor.webassembly.js was not modified
+2021-10-17 13:09:29.180 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44322/_framework/blazor.webassembly.js - - - 304 - application/javascript 25.4925ms
+2021-10-17 13:09:29.192 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44322/_framework/blazor.boot.json - -
+2021-10-17 13:09:29.195 +02:00 [INF] The file /_framework/blazor.boot.json was not modified
+2021-10-17 13:09:29.197 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44322/_framework/blazor.boot.json - - - 304 - application/json 4.8546ms
+2021-10-17 13:09:29.215 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44322/_framework/dotnet.5.0.3.js - -
+2021-10-17 13:09:29.219 +02:00 [INF] The file /_framework/dotnet.5.0.3.js.gz was not modified
+2021-10-17 13:09:29.221 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44322/_framework/dotnet.5.0.3.js - - - 304 - application/javascript 5.5274ms
+2021-10-17 13:09:29.813 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.Extensions.Configuration.Binder.dll - -
+2021-10-17 13:09:29.817 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.AspNetCore.Components.WebAssembly.dll - -
+2021-10-17 13:09:29.854 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.IO.Pipes.AccessControl.dll - -
+2021-10-17 13:09:29.858 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.IO.FileSystem.AccessControl.dll - -
+2021-10-17 13:09:29.877 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.AspNetCore.Components.Forms.dll - -
+2021-10-17 13:09:29.877 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.AspNetCore.Components.dll - -
+2021-10-17 13:09:29.877 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Console.dll - -
+2021-10-17 13:09:29.912 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.Extensions.FileProviders.Physical.dll - -
+2021-10-17 13:09:29.929 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.ComponentModel.EventBasedAsync.dll - -
+2021-10-17 13:09:29.929 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Diagnostics.StackTrace.dll - -
+2021-10-17 13:09:29.930 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Collections.Immutable.dll - -
+2021-10-17 13:09:29.934 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Memory.dll - -
+2021-10-17 13:09:29.936 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Diagnostics.Process.dll - -
+2021-10-17 13:09:29.938 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Net.NameResolution.dll - -
+2021-10-17 13:09:29.938 +02:00 [INF] Sending file. Request path: '/_framework/System.IO.Pipes.AccessControl.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Pipes.AccessControl.dll'
+2021-10-17 13:09:29.938 +02:00 [INF] Sending file. Request path: '/_framework/System.IO.FileSystem.AccessControl.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.FileSystem.AccessControl.dll'
+2021-10-17 13:09:29.938 +02:00 [INF] Sending file. Request path: '/_framework/System.Diagnostics.StackTrace.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.StackTrace.dll'
+2021-10-17 13:09:29.938 +02:00 [INF] Sending file. Request path: '/_framework/Microsoft.Extensions.Configuration.Binder.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Binder.dll'
+2021-10-17 13:09:29.938 +02:00 [INF] Sending file. Request path: '/_framework/System.Console.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Console.dll'
+2021-10-17 13:09:29.938 +02:00 [INF] Sending file. Request path: '/_framework/Microsoft.AspNetCore.Components.Forms.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll'
+2021-10-17 13:09:29.938 +02:00 [INF] Sending file. Request path: '/_framework/System.ComponentModel.EventBasedAsync.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.ComponentModel.EventBasedAsync.dll'
+2021-10-17 13:09:29.945 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Diagnostics.Contracts.dll - -
+2021-10-17 13:09:29.947 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.VisualBasic.Core.dll - -
+2021-10-17 13:09:29.947 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.IO.Compression.dll - -
+2021-10-17 13:09:29.947 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.AspNetCore.Metadata.dll - -
+2021-10-17 13:09:29.949 +02:00 [INF] Sending file. Request path: '/_framework/System.Diagnostics.Contracts.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.Contracts.dll'
+2021-10-17 13:09:29.947 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Linq.Parallel.dll - -
+2021-10-17 13:09:29.947 +02:00 [INF] Sending file. Request path: '/_framework/System.Net.NameResolution.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.NameResolution.dll'
+2021-10-17 13:09:29.947 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.IO.Compression.Brotli.dll - -
+2021-10-17 13:09:29.947 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Data.dll - -
+2021-10-17 13:09:29.954 +02:00 [INF] Sending file. Request path: '/_framework/Microsoft.AspNetCore.Metadata.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.dll'
+2021-10-17 13:09:29.954 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Net.Requests.dll - -
+2021-10-17 13:09:29.955 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Collections.dll - -
+2021-10-17 13:09:29.959 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Net.HttpListener.dll - -
+2021-10-17 13:09:29.960 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Net.Ping.dll - -
+2021-10-17 13:09:29.959 +02:00 [INF] Sending file. Request path: '/_framework/System.Data.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Data.dll'
+2021-10-17 13:09:29.963 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Data.Common.dll - -
+2021-10-17 13:09:29.966 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.IO.FileSystem.DriveInfo.dll - -
+2021-10-17 13:09:29.966 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Globalization.Extensions.dll - -
+2021-10-17 13:09:29.967 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.JSInterop.dll - -
+2021-10-17 13:09:29.970 +02:00 [INF] Sending file. Request path: '/_framework/System.Globalization.Extensions.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Globalization.Extensions.dll'
+2021-10-17 13:09:29.970 +02:00 [INF] Sending file. Request path: '/_framework/System.IO.FileSystem.DriveInfo.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.FileSystem.DriveInfo.dll'
+2021-10-17 13:09:29.970 +02:00 [INF] Sending file. Request path: '/_framework/System.Net.HttpListener.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.HttpListener.dll'
+2021-10-17 13:09:29.970 +02:00 [INF] Sending file. Request path: '/_framework/System.IO.Compression.Brotli.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Compression.Brotli.dll'
+2021-10-17 13:09:29.974 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.AspNetCore.Components.Web.dll - -
+2021-10-17 13:09:29.973 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Configuration.dll - -
+2021-10-17 13:09:29.975 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Dynamic.Runtime.dll - -
+2021-10-17 13:09:29.975 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Data.DataSetExtensions.dll - -
+2021-10-17 13:09:29.971 +02:00 [INF] Sending file. Request path: '/_framework/System.Net.Ping.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Ping.dll'
+2021-10-17 13:09:29.974 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.Extensions.Logging.dll - -
+2021-10-17 13:09:29.980 +02:00 [INF] Sending file. Request path: '/_framework/System.Data.DataSetExtensions.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Data.DataSetExtensions.dll'
+2021-10-17 13:09:29.981 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Collections.NonGeneric.dll - -
+2021-10-17 13:09:29.982 +02:00 [INF] Sending file. Request path: '/_framework/System.Dynamic.Runtime.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Dynamic.Runtime.dll'
+2021-10-17 13:09:29.982 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.CSharp.dll - -
+2021-10-17 13:09:29.983 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.IO.Pipes.dll - -
+2021-10-17 13:09:29.980 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Buffers.dll - -
+2021-10-17 13:09:29.987 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.Extensions.DependencyInjection.dll - -
+2021-10-17 13:09:29.989 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.Win32.Primitives.dll - -
+2021-10-17 13:09:29.990 +02:00 [INF] Sending file. Request path: '/_framework/System.Configuration.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Configuration.dll'
+2021-10-17 13:09:29.990 +02:00 [INF] Sending file. Request path: '/_framework/System.Buffers.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Buffers.dll'
+2021-10-17 13:09:29.992 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Diagnostics.Tools.dll - -
+2021-10-17 13:09:29.994 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Collections.Concurrent.dll - -
+2021-10-17 13:09:29.994 +02:00 [INF] Sending file. Request path: '/_framework/Microsoft.Extensions.Logging.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Logging.dll'
+2021-10-17 13:09:29.994 +02:00 [INF] Sending file. Request path: '/_framework/Microsoft.Win32.Primitives.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Win32.Primitives.dll'
+2021-10-17 13:09:29.995 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.Extensions.FileSystemGlobbing.dll - -
+2021-10-17 13:09:29.997 +02:00 [INF] Sending file. Request path: '/_framework/System.Diagnostics.Tools.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.Tools.dll'
+2021-10-17 13:09:29.997 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Diagnostics.Debug.dll - -
+2021-10-17 13:09:29.999 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.Extensions.Configuration.Abstractions.dll - -
+2021-10-17 13:09:30.002 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Drawing.Primitives.dll - -
+2021-10-17 13:09:30.002 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Diagnostics.DiagnosticSource.dll - -
+2021-10-17 13:09:30.002 +02:00 [INF] Sending file. Request path: '/_framework/System.Diagnostics.Debug.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.Debug.dll'
+2021-10-17 13:09:30.005 +02:00 [INF] Sending file. Request path: '/_framework/System.IO.Pipes.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Pipes.dll'
+2021-10-17 13:09:30.006 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Net.Security.dll - -
+2021-10-17 13:09:30.008 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.Extensions.Configuration.FileExtensions.dll - -
+2021-10-17 13:09:30.009 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.Extensions.Configuration.dll - -
+2021-10-17 13:09:30.015 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.Extensions.Configuration.Json.dll - -
+2021-10-17 13:09:30.006 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.ComponentModel.TypeConverter.dll - -
+2021-10-17 13:09:30.029 +02:00 [INF] Sending file. Request path: '/_framework/Microsoft.Extensions.Configuration.Abstractions.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Abstractions.dll'
+2021-10-17 13:09:30.036 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Diagnostics.Tracing.dll - -
+2021-10-17 13:09:30.049 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.IO.Compression.ZipFile.dll - -
+2021-10-17 13:09:30.049 +02:00 [INF] Sending file. Request path: '/_framework/System.Drawing.Primitives.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Drawing.Primitives.dll'
+2021-10-17 13:09:30.059 +02:00 [INF] Sending file. Request path: '/_framework/System.Net.Security.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Security.dll'
+2021-10-17 13:09:30.058 +02:00 [INF] Sending file. Request path: '/_framework/Microsoft.Extensions.Configuration.Json.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Json.dll'
+2021-10-17 13:09:30.076 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.ComponentModel.dll - -
+2021-10-17 13:09:30.070 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.ComponentModel.Annotations.dll - -
+2021-10-17 13:09:30.076 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Globalization.dll - -
+2021-10-17 13:09:30.077 +02:00 [INF] Sending file. Request path: '/_framework/System.Diagnostics.Tracing.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.Tracing.dll'
+2021-10-17 13:09:30.077 +02:00 [INF] Sending file. Request path: '/_framework/Microsoft.Extensions.Configuration.FileExtensions.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Configuration.FileExtensions.dll'
+2021-10-17 13:09:30.097 +02:00 [INF] Sending file. Request path: '/_framework/Microsoft.Extensions.Configuration.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Configuration.dll'
+2021-10-17 13:09:30.106 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.ComponentModel.Primitives.dll - -
+2021-10-17 13:09:30.107 +02:00 [INF] Sending file. Request path: '/_framework/System.ComponentModel.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.ComponentModel.dll'
+2021-10-17 13:09:30.106 +02:00 [INF] Sending file. Request path: '/_framework/System.Globalization.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Globalization.dll'
+2021-10-17 13:09:30.128 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.IO.IsolatedStorage.dll - -
+2021-10-17 13:09:30.108 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.IO.dll - -
+2021-10-17 13:09:30.105 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.IO.FileSystem.Primitives.dll - -
+2021-10-17 13:09:30.142 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Linq.Expressions.dll - -
+2021-10-17 13:09:30.142 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.Extensions.FileProviders.Abstractions.dll - -
+2021-10-17 13:09:30.178 +02:00 [INF] Sending file. Request path: '/_framework/System.IO.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.dll'
+2021-10-17 13:09:30.179 +02:00 [INF] Sending file. Request path: '/_framework/System.IO.FileSystem.Primitives.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.FileSystem.Primitives.dll'
+2021-10-17 13:09:30.192 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.IO.UnmanagedMemoryStream.dll - -
+2021-10-17 13:09:30.207 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Diagnostics.TextWriterTraceListener.dll - -
+2021-10-17 13:09:30.219 +02:00 [INF] Sending file. Request path: '/_framework/Microsoft.Extensions.FileProviders.Abstractions.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.dll'
+2021-10-17 13:09:30.232 +02:00 [INF] Sending file. Request path: '/_framework/System.IO.IsolatedStorage.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.IsolatedStorage.dll'
+2021-10-17 13:09:30.262 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.IO.FileSystem.Watcher.dll - -
+2021-10-17 13:09:30.277 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Net.Sockets.dll - -
+2021-10-17 13:09:30.264 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Diagnostics.FileVersionInfo.dll - -
+2021-10-17 13:09:30.232 +02:00 [INF] Sending file. Request path: '/_framework/System.IO.UnmanagedMemoryStream.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.UnmanagedMemoryStream.dll'
+2021-10-17 13:09:30.219 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.AspNetCore.Authorization.dll - -
+2021-10-17 13:09:30.310 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Diagnostics.TraceSource.dll - -
+2021-10-17 13:09:30.345 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Drawing.dll - -
+2021-10-17 13:09:30.345 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.IO.MemoryMappedFiles.dll - -
+2021-10-17 13:09:30.364 +02:00 [INF] Sending file. Request path: '/_framework/System.Drawing.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Drawing.dll'
+2021-10-17 13:09:30.364 +02:00 [INF] Sending file. Request path: '/_framework/System.Diagnostics.FileVersionInfo.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.FileVersionInfo.dll'
+2021-10-17 13:09:30.367 +02:00 [INF] Sending file. Request path: '/_framework/System.Net.Sockets.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Sockets.dll'
+2021-10-17 13:09:30.367 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Net.dll - -
+2021-10-17 13:09:30.367 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Linq.dll - -
+2021-10-17 13:09:30.367 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.IO.FileSystem.dll - -
+2021-10-17 13:09:30.371 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Formats.Asn1.dll - -
+2021-10-17 13:09:30.370 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Net.Http.Json.dll - -
+2021-10-17 13:09:30.367 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.Win32.Registry.dll - -
+2021-10-17 13:09:30.375 +02:00 [INF] Sending file. Request path: '/_framework/System.Net.Http.Json.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Http.Json.dll'
+2021-10-17 13:09:30.377 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.ComponentModel.DataAnnotations.dll - -
+2021-10-17 13:09:30.378 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.Extensions.Primitives.dll - -
+2021-10-17 13:09:30.379 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Net.ServicePoint.dll - -
+2021-10-17 13:09:30.380 +02:00 [INF] Sending file. Request path: '/_framework/System.Net.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.dll'
+2021-10-17 13:09:30.378 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll - -
+2021-10-17 13:09:30.383 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Core.dll - -
+2021-10-17 13:09:30.384 +02:00 [INF] Sending file. Request path: '/_framework/Microsoft.Win32.Registry.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Win32.Registry.dll'
+2021-10-17 13:09:30.385 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Collections.Specialized.dll - -
+2021-10-17 13:09:30.385 +02:00 [INF] Sending file. Request path: '/_framework/System.ComponentModel.DataAnnotations.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.ComponentModel.DataAnnotations.dll'
+2021-10-17 13:09:30.389 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.AppContext.dll - -
+2021-10-17 13:09:30.389 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.Extensions.Options.dll - -
+2021-10-17 13:09:30.391 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Net.Mail.dll - -
+2021-10-17 13:09:30.391 +02:00 [INF] Sending file. Request path: '/_framework/System.Net.ServicePoint.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.ServicePoint.dll'
+2021-10-17 13:09:30.393 +02:00 [INF] Sending file. Request path: '/_framework/System.AppContext.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.AppContext.dll'
+2021-10-17 13:09:30.395 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Linq.Queryable.dll - -
+2021-10-17 13:09:30.395 +02:00 [INF] Sending file. Request path: '/_framework/System.Core.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Core.dll'
+2021-10-17 13:09:30.397 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Globalization.Calendars.dll - -
+2021-10-17 13:09:30.399 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.ObjectModel.dll - -
+2021-10-17 13:09:30.399 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Text.Encodings.Web.dll - -
+2021-10-17 13:09:30.401 +02:00 [INF] Sending file. Request path: '/_framework/System.Globalization.Calendars.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Globalization.Calendars.dll'
+2021-10-17 13:09:30.403 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.IO.Pipelines.dll - -
+2021-10-17 13:09:30.403 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Net.Primitives.dll - -
+2021-10-17 13:09:30.406 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Net.WebClient.dll - -
+2021-10-17 13:09:30.406 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Reflection.Primitives.dll - -
+2021-10-17 13:09:30.409 +02:00 [INF] Sending file. Request path: '/_framework/System.Reflection.Primitives.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.Primitives.dll'
+2021-10-17 13:09:30.409 +02:00 [INF] Sending file. Request path: '/_framework/System.ObjectModel.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.ObjectModel.dll'
+2021-10-17 13:09:30.411 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Runtime.Serialization.Json.dll - -
+2021-10-17 13:09:30.412 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Reflection.DispatchProxy.dll - -
+2021-10-17 13:09:30.413 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Reflection.Metadata.dll - -
+2021-10-17 13:09:30.413 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Reflection.Emit.dll - -
+2021-10-17 13:09:30.414 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Net.WebSockets.Client.dll - -
+2021-10-17 13:09:30.418 +02:00 [INF] Sending file. Request path: '/_framework/System.Reflection.Emit.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.Emit.dll'
+2021-10-17 13:09:30.418 +02:00 [INF] Sending file. Request path: '/_framework/System.Runtime.Serialization.Json.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Serialization.Json.dll'
+2021-10-17 13:09:30.418 +02:00 [INF] Sending file. Request path: '/_framework/System.Net.WebClient.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.WebClient.dll'
+2021-10-17 13:09:30.421 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Reflection.Emit.ILGeneration.dll - -
+2021-10-17 13:09:30.421 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Net.NetworkInformation.dll - -
+2021-10-17 13:09:30.421 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/netstandard.dll - -
+2021-10-17 13:09:30.423 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Threading.Tasks.Dataflow.dll - -
+2021-10-17 13:09:30.426 +02:00 [INF] Sending file. Request path: '/_framework/System.Reflection.Emit.ILGeneration.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.Emit.ILGeneration.dll'
+2021-10-17 13:09:30.427 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.IO.Compression.FileSystem.dll - -
+2021-10-17 13:09:30.427 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Xml.dll - -
+2021-10-17 13:09:30.427 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Threading.Tasks.dll - -
+2021-10-17 13:09:30.431 +02:00 [INF] Sending file. Request path: '/_framework/System.IO.Compression.FileSystem.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Compression.FileSystem.dll'
+2021-10-17 13:09:30.433 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Runtime.Serialization.Primitives.dll - -
+2021-10-17 13:09:30.433 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Numerics.dll - -
+2021-10-17 13:09:30.434 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Text.Encoding.Extensions.dll - -
+2021-10-17 13:09:30.434 +02:00 [INF] Sending file. Request path: '/_framework/System.Net.NetworkInformation.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.NetworkInformation.dll'
+2021-10-17 13:09:30.433 +02:00 [INF] Sending file. Request path: '/_framework/System.Threading.Tasks.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Tasks.dll'
+2021-10-17 13:09:30.438 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Security.Cryptography.Algorithms.dll - -
+2021-10-17 13:09:30.439 +02:00 [INF] Sending file. Request path: '/_framework/System.Text.Encoding.Extensions.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Text.Encoding.Extensions.dll'
+2021-10-17 13:09:30.439 +02:00 [INF] Sending file. Request path: '/_framework/System.Xml.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.dll'
+2021-10-17 13:09:30.438 +02:00 [INF] Sending file. Request path: '/_framework/System.Numerics.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Numerics.dll'
+2021-10-17 13:09:30.442 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Reflection.Emit.Lightweight.dll - -
+2021-10-17 13:09:30.443 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Runtime.Handles.dll - -
+2021-10-17 13:09:30.440 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Threading.Timer.dll - -
+2021-10-17 13:09:30.446 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Runtime.InteropServices.RuntimeInformation.dll - -
+2021-10-17 13:09:30.446 +02:00 [INF] Sending file. Request path: '/_framework/System.Runtime.Handles.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Handles.dll'
+2021-10-17 13:09:30.446 +02:00 [INF] Sending file. Request path: '/_framework/System.Reflection.Emit.Lightweight.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.Emit.Lightweight.dll'
+2021-10-17 13:09:30.449 +02:00 [INF] Sending file. Request path: '/_framework/System.Threading.Timer.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Timer.dll'
+2021-10-17 13:09:30.450 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Numerics.Vectors.dll - -
+2021-10-17 13:09:30.450 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Private.DataContractSerialization.dll - -
+2021-10-17 13:09:30.452 +02:00 [INF] Sending file. Request path: '/_framework/System.Runtime.Serialization.Primitives.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Serialization.Primitives.dll'
+2021-10-17 13:09:30.454 +02:00 [INF] Sending file. Request path: '/_framework/System.Numerics.Vectors.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Numerics.Vectors.dll'
+2021-10-17 13:09:30.454 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.VisualBasic.dll - -
+2021-10-17 13:09:30.455 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Threading.Channels.dll - -
+2021-10-17 13:09:30.457 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Private.Xml.Linq.dll - -
+2021-10-17 13:09:30.454 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Private.CoreLib.dll - -
+2021-10-17 13:09:30.460 +02:00 [INF] Sending file. Request path: '/_framework/System.Runtime.InteropServices.RuntimeInformation.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.InteropServices.RuntimeInformation.dll'
+2021-10-17 13:09:30.461 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Threading.ThreadPool.dll - -
+2021-10-17 13:09:30.462 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Runtime.CompilerServices.VisualC.dll - -
+2021-10-17 13:09:30.464 +02:00 [INF] Sending file. Request path: '/_framework/System.Threading.ThreadPool.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.ThreadPool.dll'
+2021-10-17 13:09:30.466 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Reflection.dll - -
+2021-10-17 13:09:30.466 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Xml.XPath.dll - -
+2021-10-17 13:09:30.468 +02:00 [INF] Sending file. Request path: '/_framework/Microsoft.VisualBasic.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.VisualBasic.dll'
+2021-10-17 13:09:30.468 +02:00 [INF] Sending file. Request path: '/_framework/System.Threading.Channels.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Channels.dll'
+2021-10-17 13:09:30.469 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Runtime.Extensions.dll - -
+2021-10-17 13:09:30.472 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Resources.Reader.dll - -
+2021-10-17 13:09:30.470 +02:00 [INF] Sending file. Request path: '/_framework/System.Reflection.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.dll'
+2021-10-17 13:09:30.473 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Resources.Writer.dll - -
+2021-10-17 13:09:30.474 +02:00 [INF] Sending file. Request path: '/_framework/System.Xml.XPath.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.XPath.dll'
+2021-10-17 13:09:30.472 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Transactions.dll - -
+2021-10-17 13:09:30.478 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.ServiceProcess.dll - -
+2021-10-17 13:09:30.478 +02:00 [INF] Sending file. Request path: '/_framework/System.Runtime.CompilerServices.VisualC.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.CompilerServices.VisualC.dll'
+2021-10-17 13:09:30.480 +02:00 [INF] Sending file. Request path: '/_framework/System.Resources.Reader.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Resources.Reader.dll'
+2021-10-17 13:09:30.482 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/BlazorAppExampleSink.Client.dll - -
+2021-10-17 13:09:30.483 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Reflection.Extensions.dll - -
+2021-10-17 13:09:30.483 +02:00 [INF] Sending file. Request path: '/_framework/System.ServiceProcess.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.ServiceProcess.dll'
+2021-10-17 13:09:30.485 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Threading.Thread.dll - -
+2021-10-17 13:09:30.485 +02:00 [INF] Sending file. Request path: '/_framework/System.Resources.Writer.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Resources.Writer.dll'
+2021-10-17 13:09:30.488 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Runtime.Serialization.dll - -
+2021-10-17 13:09:30.483 +02:00 [INF] Sending file. Request path: '/_framework/System.Transactions.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Transactions.dll'
+2021-10-17 13:09:30.490 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Security.Cryptography.Encoding.dll - -
+2021-10-17 13:09:30.489 +02:00 [INF] Sending file. Request path: '/_framework/System.Reflection.Extensions.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.Extensions.dll'
+2021-10-17 13:09:30.491 +02:00 [INF] Sending file. Request path: '/_framework/System.Threading.Thread.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Thread.dll'
+2021-10-17 13:09:30.491 +02:00 [INF] Sending file. Request path: '/_framework/System.Runtime.Extensions.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Extensions.dll'
+2021-10-17 13:09:30.493 +02:00 [INF] Sending file. Request path: '/_framework/System.Runtime.Serialization.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Serialization.dll'
+2021-10-17 13:09:30.496 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Windows.dll - -
+2021-10-17 13:09:30.496 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Security.Principal.Windows.dll - -
+2021-10-17 13:09:30.499 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Xml.Linq.dll - -
+2021-10-17 13:09:30.499 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Security.Cryptography.Csp.dll - -
+2021-10-17 13:09:30.496 +02:00 [INF] Sending file. Request path: '/_framework/BlazorAppExampleSink.Client.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\BlazorAppExampleSink.Client.dll'
+2021-10-17 13:09:30.494 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Xml.Serialization.dll - -
+2021-10-17 13:09:30.502 +02:00 [INF] Sending file. Request path: '/_framework/System.Security.Cryptography.Encoding.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.Encoding.dll'
+2021-10-17 13:09:30.504 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Security.AccessControl.dll - -
+2021-10-17 13:09:30.505 +02:00 [INF] Sending file. Request path: '/_framework/System.Windows.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Windows.dll'
+2021-10-17 13:09:30.505 +02:00 [INF] Sending file. Request path: '/_framework/System.Xml.Linq.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.Linq.dll'
+2021-10-17 13:09:30.507 +02:00 [INF] Sending file. Request path: '/_framework/System.Xml.Serialization.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.Serialization.dll'
+2021-10-17 13:09:30.509 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Threading.dll - -
+2021-10-17 13:09:30.509 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Text.Encoding.CodePages.dll - -
+2021-10-17 13:09:30.512 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.Extensions.Logging.Abstractions.dll - -
+2021-10-17 13:09:30.513 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Security.Principal.dll - -
+2021-10-17 13:09:30.516 +02:00 [INF] Sending file. Request path: '/_framework/System.Security.Principal.Windows.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Principal.Windows.dll'
+2021-10-17 13:09:30.516 +02:00 [INF] Sending file. Request path: '/_framework/System.Security.Cryptography.Csp.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.Csp.dll'
+2021-10-17 13:09:30.518 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Reflection.TypeExtensions.dll - -
+2021-10-17 13:09:30.518 +02:00 [INF] Sending file. Request path: '/_framework/System.Security.Principal.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Principal.dll'
+2021-10-17 13:09:30.519 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Web.HttpUtility.dll - -
+2021-10-17 13:09:30.521 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Private.Runtime.InteropServices.JavaScript.dll - -
+2021-10-17 13:09:30.524 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Text.Json.dll - -
+2021-10-17 13:09:30.524 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Transactions.Local.dll - -
+2021-10-17 13:09:30.525 +02:00 [INF] Sending file. Request path: '/_framework/System.Threading.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.dll'
+2021-10-17 13:09:30.524 +02:00 [INF] Sending file. Request path: '/_framework/System.Web.HttpUtility.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Web.HttpUtility.dll'
+2021-10-17 13:09:30.526 +02:00 [INF] Sending file. Request path: '/_framework/Microsoft.Extensions.Logging.Abstractions.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Logging.Abstractions.dll'
+2021-10-17 13:09:30.528 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Resources.ResourceManager.dll - -
+2021-10-17 13:09:30.530 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Net.WebProxy.dll - -
+2021-10-17 13:09:30.531 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Threading.Tasks.Extensions.dll - -
+2021-10-17 13:09:30.532 +02:00 [INF] Sending file. Request path: '/_framework/System.Reflection.TypeExtensions.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.TypeExtensions.dll'
+2021-10-17 13:09:30.533 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.JSInterop.WebAssembly.dll - -
+2021-10-17 13:09:30.535 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.ServiceModel.Web.dll - -
+2021-10-17 13:09:30.537 +02:00 [INF] Sending file. Request path: '/_framework/System.Resources.ResourceManager.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Resources.ResourceManager.dll'
+2021-10-17 13:09:30.538 +02:00 [INF] Sending file. Request path: '/_framework/System.Threading.Tasks.Extensions.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Tasks.Extensions.dll'
+2021-10-17 13:09:30.538 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Text.RegularExpressions.dll - -
+2021-10-17 13:09:30.540 +02:00 [INF] Sending file. Request path: '/_framework/System.ServiceModel.Web.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.ServiceModel.Web.dll'
+2021-10-17 13:09:30.541 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Security.Claims.dll - -
+2021-10-17 13:09:30.541 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Runtime.CompilerServices.Unsafe.dll - -
+2021-10-17 13:09:30.544 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Threading.Overlapped.dll - -
+2021-10-17 13:09:30.545 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Private.Xml.dll - -
+2021-10-17 13:09:30.545 +02:00 [INF] Sending file. Request path: '/_framework/System.Runtime.CompilerServices.Unsafe.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.CompilerServices.Unsafe.dll'
+2021-10-17 13:09:30.547 +02:00 [INF] Sending file. Request path: '/_framework/System.Net.WebProxy.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.WebProxy.dll'
+2021-10-17 13:09:30.549 +02:00 [INF] Sending file. Request path: '/_framework/System.Threading.Overlapped.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Overlapped.dll'
+2021-10-17 13:09:30.549 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Runtime.Loader.dll - -
+2021-10-17 13:09:30.550 +02:00 [INF] Sending file. Request path: '/_framework/System.IO.Compression.ZipFile.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Compression.ZipFile.dll'
+2021-10-17 13:09:30.549 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Xml.XDocument.dll - -
+2021-10-17 13:09:30.553 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Security.dll - -
+2021-10-17 13:09:30.553 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/WindowsBase.dll - -
+2021-10-17 13:09:30.556 +02:00 [INF] Sending file. Request path: '/_framework/System.Runtime.Loader.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Loader.dll'
+2021-10-17 13:09:30.557 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Net.WebHeaderCollection.dll - -
+2021-10-17 13:09:30.556 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Security.Cryptography.Primitives.dll - -
+2021-10-17 13:09:30.556 +02:00 [INF] Sending file. Request path: '/_framework/System.Xml.XDocument.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.XDocument.dll'
+2021-10-17 13:09:30.560 +02:00 [INF] Sending file. Request path: '/_framework/WindowsBase.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\WindowsBase.dll'
+2021-10-17 13:09:30.560 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.dll - -
+2021-10-17 13:09:30.561 +02:00 [INF] Sending file. Request path: '/_framework/System.Security.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.dll'
+2021-10-17 13:09:30.562 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Runtime.Serialization.Formatters.dll - -
+2021-10-17 13:09:30.564 +02:00 [INF] Sending file. Request path: '/_framework/System.Net.WebHeaderCollection.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.WebHeaderCollection.dll'
+2021-10-17 13:09:30.564 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Xml.XmlDocument.dll - -
+2021-10-17 13:09:30.555 +02:00 [INF] Sending file. Request path: '/_framework/Microsoft.JSInterop.WebAssembly.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll'
+2021-10-17 13:09:30.556 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/BlazorAppExampleSink.Shared.dll - -
+2021-10-17 13:09:30.567 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Text.Encoding.dll - -
+2021-10-17 13:09:30.569 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Net.Http.dll - -
+2021-10-17 13:09:30.570 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Security.Cryptography.OpenSsl.dll - -
+2021-10-17 13:09:30.571 +02:00 [INF] Sending file. Request path: '/_framework/System.Xml.XmlDocument.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.XmlDocument.dll'
+2021-10-17 13:09:30.572 +02:00 [INF] Sending file. Request path: '/_framework/BlazorAppExampleSink.Shared.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\BlazorAppExampleSink.Shared.dll'
+2021-10-17 13:09:30.575 +02:00 [INF] Sending file. Request path: '/_framework/System.Text.Encoding.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Text.Encoding.dll'
+2021-10-17 13:09:30.576 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Runtime.dll - -
+2021-10-17 13:09:30.577 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Security.Cryptography.Cng.dll - -
+2021-10-17 13:09:30.577 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Net.WebSockets.dll - -
+2021-10-17 13:09:30.578 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Runtime.Intrinsics.dll - -
+2021-10-17 13:09:30.576 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Xml.XPath.XDocument.dll - -
+2021-10-17 13:09:30.583 +02:00 [INF] Sending file. Request path: '/_framework/System.Runtime.Intrinsics.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Intrinsics.dll'
+2021-10-17 13:09:30.585 +02:00 [INF] Sending file. Request path: '/_framework/System.Xml.XPath.XDocument.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.XPath.XDocument.dll'
+2021-10-17 13:09:30.586 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Security.Cryptography.X509Certificates.dll - -
+2021-10-17 13:09:30.586 +02:00 [INF] Sending file. Request path: '/_framework/System.Security.Cryptography.OpenSsl.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.OpenSsl.dll'
+2021-10-17 13:09:30.587 +02:00 [INF] Sending file. Request path: '/_framework/System.Runtime.Serialization.Formatters.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Serialization.Formatters.dll'
+2021-10-17 13:09:30.585 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Xml.XmlSerializer.dll - -
+2021-10-17 13:09:30.590 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Runtime.Numerics.dll - -
+2021-10-17 13:09:30.590 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/BlazorAppExampleSink.Client.pdb - -
+2021-10-17 13:09:30.592 +02:00 [INF] Sending file. Request path: '/_framework/System.Runtime.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.dll'
+2021-10-17 13:09:30.594 +02:00 [INF] Sending file. Request path: '/_framework/System.Security.Cryptography.Cng.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.Cng.dll'
+2021-10-17 13:09:30.594 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/BlazorAppExampleSink.Shared.pdb - -
+2021-10-17 13:09:30.595 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Runtime.Serialization.Xml.dll - -
+2021-10-17 13:09:30.597 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Xml.ReaderWriter.dll - -
+2021-10-17 13:09:30.597 +02:00 [INF] Sending file. Request path: '/_framework/BlazorAppExampleSink.Client.pdb'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\BlazorAppExampleSink.Client.pdb'
+2021-10-17 13:09:30.591 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Runtime.InteropServices.dll - -
+2021-10-17 13:09:30.601 +02:00 [INF] Sending file. Request path: '/_framework/System.Runtime.Serialization.Xml.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Serialization.Xml.dll'
+2021-10-17 13:09:30.601 +02:00 [INF] Sending file. Request path: '/_framework/BlazorAppExampleSink.Shared.pdb'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\BlazorAppExampleSink.Shared.pdb'
+2021-10-17 13:09:30.601 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Security.SecureString.dll - -
+2021-10-17 13:09:30.602 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.ValueTuple.dll - -
+2021-10-17 13:09:30.605 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/mscorlib.dll - -
+2021-10-17 13:09:30.607 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Threading.Tasks.Parallel.dll - -
+2021-10-17 13:09:30.609 +02:00 [INF] Sending file. Request path: '/_framework/System.ValueTuple.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.ValueTuple.dll'
+2021-10-17 13:09:30.609 +02:00 [INF] Sending file. Request path: '/_framework/System.Xml.ReaderWriter.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.ReaderWriter.dll'
+2021-10-17 13:09:30.610 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Private.Uri.dll - -
+2021-10-17 13:09:30.609 +02:00 [INF] Sending file. Request path: '/_framework/System.Security.SecureString.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.SecureString.dll'
+2021-10-17 13:09:30.612 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44322/_framework/System.Web.dll - -
+2021-10-17 13:09:30.609 +02:00 [INF] Sending file. Request path: '/_framework/System.Xml.XmlSerializer.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.XmlSerializer.dll'
+2021-10-17 13:09:30.613 +02:00 [INF] Sending file. Request path: '/_framework/System.Runtime.InteropServices.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.InteropServices.dll'
+2021-10-17 13:09:30.617 +02:00 [INF] Sending file. Request path: '/_framework/System.Web.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Web.dll'
+2021-10-17 13:09:30.619 +02:00 [INF] Sending file. Request path: '/_framework/System.Threading.Tasks.Parallel.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Tasks.Parallel.dll'
+2021-10-17 13:09:30.621 +02:00 [INF] Sending file. Request path: '/_framework/Microsoft.Extensions.FileProviders.Physical.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Physical.dll'
+2021-10-17 13:09:30.623 +02:00 [INF] Sending file. Request path: '/_framework/System.Net.Requests.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Requests.dll'
+2021-10-17 13:09:30.625 +02:00 [INF] Sending file. Request path: '/_framework/Microsoft.JSInterop.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.JSInterop.dll'
+2021-10-17 13:09:30.625 +02:00 [INF] Sending file. Request path: '/_framework/System.Collections.NonGeneric.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Collections.NonGeneric.dll'
+2021-10-17 13:09:30.624 +02:00 [INF] Sending file. Request path: '/_framework/System.Diagnostics.Process.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.Process.dll'
+2021-10-17 13:09:30.628 +02:00 [INF] Sending file. Request path: '/_framework/Microsoft.Extensions.FileSystemGlobbing.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.FileSystemGlobbing.dll'
+2021-10-17 13:09:30.630 +02:00 [INF] Sending file. Request path: '/_framework/System.IO.FileSystem.Watcher.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.FileSystem.Watcher.dll'
+2021-10-17 13:09:30.662 +02:00 [INF] Sending file. Request path: '/_framework/System.IO.MemoryMappedFiles.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.MemoryMappedFiles.dll'
+2021-10-17 13:09:30.630 +02:00 [INF] Sending file. Request path: '/_framework/System.Diagnostics.TextWriterTraceListener.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.TextWriterTraceListener.dll'
+2021-10-17 13:09:30.670 +02:00 [INF] Sending file. Request path: '/_framework/System.Collections.Specialized.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Collections.Specialized.dll'
+2021-10-17 13:09:30.670 +02:00 [INF] Sending file. Request path: '/_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.Abstractions.dll'
+2021-10-17 13:09:30.672 +02:00 [INF] Sending file. Request path: '/_framework/Microsoft.Extensions.Options.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Options.dll'
+2021-10-17 13:09:30.630 +02:00 [INF] Sending file. Request path: '/_framework/System.ComponentModel.Primitives.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.ComponentModel.Primitives.dll'
+2021-10-17 13:09:30.675 +02:00 [INF] Sending file. Request path: '/_framework/System.Reflection.DispatchProxy.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.DispatchProxy.dll'
+2021-10-17 13:09:30.676 +02:00 [INF] Sending file. Request path: '/_framework/System.Net.WebSockets.Client.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.WebSockets.Client.dll'
+2021-10-17 13:09:30.676 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Runtime.Serialization.Json.dll - - - 200 14728 application/octet-stream 263.9202ms
+2021-10-17 13:09:30.678 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Runtime.Serialization.Primitives.dll - - - 200 21384 application/octet-stream 244.7253ms
+2021-10-17 13:09:30.630 +02:00 [INF] Sending file. Request path: '/_framework/Microsoft.AspNetCore.Authorization.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll'
+2021-10-17 13:09:30.670 +02:00 [INF] Sending file. Request path: '/_framework/Microsoft.Extensions.Primitives.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Primitives.dll'
+2021-10-17 13:09:30.683 +02:00 [INF] Sending file. Request path: '/_framework/System.Security.AccessControl.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.AccessControl.dll'
+2021-10-17 13:09:30.682 +02:00 [INF] Sending file. Request path: '/_framework/System.Security.Claims.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Claims.dll'
+2021-10-17 13:09:30.682 +02:00 [INF] Sending file. Request path: '/_framework/System.Private.Runtime.InteropServices.JavaScript.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Private.Runtime.InteropServices.JavaScript.dll'
+2021-10-17 13:09:30.682 +02:00 [INF] Sending file. Request path: '/_framework/System.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.dll'
+2021-10-17 13:09:30.687 +02:00 [INF] Sending file. Request path: '/_framework/mscorlib.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\mscorlib.dll'
+2021-10-17 13:09:30.688 +02:00 [INF] Sending file. Request path: '/_framework/System.Memory.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Memory.dll'
+2021-10-17 13:09:30.690 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.ComponentModel.EventBasedAsync.dll - - - 200 25480 application/octet-stream 759.7012ms
+2021-10-17 13:09:30.690 +02:00 [INF] Sending file. Request path: '/_framework/Microsoft.AspNetCore.Components.WebAssembly.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.WebAssembly.dll'
+2021-10-17 13:09:30.689 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.IO.Pipes.AccessControl.dll - - - 200 20360 application/octet-stream 850.6401ms
+2021-10-17 13:09:30.693 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Net.NameResolution.dll - - - 200 20352 application/octet-stream 753.6127ms
+2021-10-17 13:09:30.693 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Diagnostics.Contracts.dll - - - 200 14728 application/octet-stream 748.0471ms
+2021-10-17 13:09:30.695 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.AspNetCore.Metadata.dll - - - 200 15240 application/octet-stream 747.0817ms
+2021-10-17 13:09:30.695 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Data.dll - - - 200 23432 application/octet-stream 747.0840ms
+2021-10-17 13:09:30.696 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.IO.FileSystem.DriveInfo.dll - - - 200 21896 application/octet-stream 730.0646ms
+2021-10-17 13:09:30.697 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Net.HttpListener.dll - - - 200 39304 application/octet-stream 737.7798ms
+2021-10-17 13:09:30.698 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Data.DataSetExtensions.dll - - - 200 14208 application/octet-stream 722.8460ms
+2021-10-17 13:09:30.700 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Globalization.Extensions.dll - - - 200 14216 application/octet-stream 733.5580ms
+2021-10-17 13:09:30.700 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.IO.Compression.Brotli.dll - - - 200 21896 application/octet-stream 752.1960ms
+2021-10-17 13:09:30.701 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Dynamic.Runtime.dll - - - 200 15232 application/octet-stream 725.8823ms
+2021-10-17 13:09:30.702 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Configuration.dll - - - 200 18312 application/octet-stream 728.3711ms
+2021-10-17 13:09:30.703 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.AspNetCore.Components.Forms.dll - - - 200 31112 application/octet-stream 825.8976ms
+2021-10-17 13:09:30.703 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Diagnostics.StackTrace.dll - - - 200 25480 application/octet-stream 773.9058ms
+2021-10-17 13:09:30.705 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.Extensions.FileProviders.Physical.dll - - - 200 35720 application/octet-stream 792.5652ms
+2021-10-17 13:09:30.706 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Console.dll - - - 200 50056 application/octet-stream 829.1525ms
+2021-10-17 13:09:30.709 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Net.Ping.dll - - - 200 21896 application/octet-stream 748.1869ms
+2021-10-17 13:09:30.709 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.Extensions.Configuration.Binder.dll - - - 200 28040 application/octet-stream 894.7305ms
+2021-10-17 13:09:30.712 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Buffers.dll - - - 200 14216 application/octet-stream 732.2115ms
+2021-10-17 13:09:30.709 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.Win32.Primitives.dll - - - 200 17288 application/octet-stream 720.1012ms
+2021-10-17 13:09:30.710 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.IO.Pipes.dll - - - 200 30600 application/octet-stream 727.4551ms
+2021-10-17 13:09:30.715 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Diagnostics.Tools.dll - - - 200 14208 application/octet-stream 721.6198ms
+2021-10-17 13:09:30.715 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.Extensions.Logging.dll - - - 200 42376 application/octet-stream 741.1363ms
+2021-10-17 13:09:30.716 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Drawing.Primitives.dll - - - 200 59272 application/octet-stream 714.5596ms
+2021-10-17 13:09:30.718 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Diagnostics.Debug.dll - - - 200 14728 application/octet-stream 720.0545ms
+2021-10-17 13:09:30.719 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.Extensions.Configuration.Json.dll - - - 200 24960 application/octet-stream 703.1450ms
+2021-10-17 13:09:30.719 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.Extensions.Configuration.Abstractions.dll - - - 200 20360 application/octet-stream 719.6884ms
+2021-10-17 13:09:30.721 +02:00 [INF] Sending file. Request path: '/_framework/System.Diagnostics.DiagnosticSource.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.DiagnosticSource.dll'
+2021-10-17 13:09:30.721 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Net.Security.dll - - - 200 63368 application/octet-stream 714.6060ms
+2021-10-17 13:09:30.721 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Diagnostics.Tracing.dll - - - 200 15240 application/octet-stream 685.3068ms
+2021-10-17 13:09:30.722 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.Extensions.Configuration.FileExtensions.dll - - - 200 25480 application/octet-stream 714.5964ms
+2021-10-17 13:09:30.725 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.Extensions.Configuration.dll - - - 200 30600 application/octet-stream 714.9479ms
+2021-10-17 13:09:30.725 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Globalization.dll - - - 200 14728 application/octet-stream 654.4644ms
+2021-10-17 13:09:30.725 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.IO.dll - - - 200 14728 application/octet-stream 616.8755ms
+2021-10-17 13:09:30.726 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.Extensions.FileProviders.Abstractions.dll - - - 200 16776 application/octet-stream 584.4974ms
+2021-10-17 13:09:30.728 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.IO.UnmanagedMemoryStream.dll - - - 200 14216 application/octet-stream 534.9916ms
+2021-10-17 13:09:30.728 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.ComponentModel.dll - - - 200 15752 application/octet-stream 658.2842ms
+2021-10-17 13:09:30.729 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.IO.FileSystem.Primitives.dll - - - 200 14208 application/octet-stream 623.7390ms
+2021-10-17 13:09:30.730 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.IO.IsolatedStorage.dll - - - 200 27016 application/octet-stream 601.8261ms
+2021-10-17 13:09:30.690 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.IO.FileSystem.AccessControl.dll - - - 200 24968 application/octet-stream 851.9728ms
+2021-10-17 13:09:30.734 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Diagnostics.FileVersionInfo.dll - - - 200 18824 application/octet-stream 469.7607ms
+2021-10-17 13:09:30.734 +02:00 [INF] Sending file. Request path: '/_framework/System.Collections.Concurrent.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Collections.Concurrent.dll'
+2021-10-17 13:09:30.735 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Drawing.dll - - - 200 19848 application/octet-stream 390.2263ms
+2021-10-17 13:09:30.734 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Net.Sockets.dll - - - 200 53128 application/octet-stream 470.5039ms
+2021-10-17 13:09:30.736 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Net.Http.Json.dll - - - 200 30088 application/octet-stream 366.4575ms
+2021-10-17 13:09:30.736 +02:00 [INF] Sending file. Request path: '/_framework/System.Diagnostics.TraceSource.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.TraceSource.dll'
+2021-10-17 13:09:30.739 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.Win32.Registry.dll - - - 200 35208 application/octet-stream 370.3769ms
+2021-10-17 13:09:30.739 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Net.dll - - - 200 16776 application/octet-stream 372.0883ms
+2021-10-17 13:09:30.741 +02:00 [INF] Sending file. Request path: '/_framework/System.IO.FileSystem.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.FileSystem.dll'
+2021-10-17 13:09:30.743 +02:00 [INF] Sending file. Request path: '/_framework/System.Formats.Asn1.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Formats.Asn1.dll'
+2021-10-17 13:09:30.742 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.ComponentModel.DataAnnotations.dll - - - 200 16264 application/octet-stream 364.5842ms
+2021-10-17 13:09:30.743 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Net.ServicePoint.dll - - - 200 24960 application/octet-stream 363.4854ms
+2021-10-17 13:09:30.744 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.AppContext.dll - - - 200 14216 application/octet-stream 355.1652ms
+2021-10-17 13:09:30.746 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Core.dll - - - 200 22920 application/octet-stream 362.5385ms
+2021-10-17 13:09:30.747 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Globalization.Calendars.dll - - - 200 14728 application/octet-stream 349.3029ms
+2021-10-17 13:09:30.749 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.ObjectModel.dll - - - 200 46984 application/octet-stream 349.4166ms
+2021-10-17 13:09:30.748 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Reflection.Primitives.dll - - - 200 14728 application/octet-stream 341.6903ms
+2021-10-17 13:09:30.742 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.Extensions.Primitives.dll - - - 200 39296 application/octet-stream 363.6967ms
+2021-10-17 13:09:30.752 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Reflection.Emit.dll - - - 200 14728 application/octet-stream 339.0387ms
+2021-10-17 13:09:30.753 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Net.WebClient.dll - - - 200 29576 application/octet-stream 346.5039ms
+2021-10-17 13:09:30.754 +02:00 [INF] Sending file. Request path: '/_framework/System.IO.Pipelines.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Pipelines.dll'
+2021-10-17 13:09:30.753 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Reflection.Emit.ILGeneration.dll - - - 200 14728 application/octet-stream 332.3819ms
+2021-10-17 13:09:30.757 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.IO.Compression.FileSystem.dll - - - 200 14728 application/octet-stream 328.4679ms
+2021-10-17 13:09:30.757 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Threading.Tasks.dll - - - 200 15752 application/octet-stream 328.8845ms
+2021-10-17 13:09:30.758 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Net.NetworkInformation.dll - - - 200 35200 application/octet-stream 336.0247ms
+2021-10-17 13:09:30.759 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Text.Encoding.Extensions.dll - - - 200 14216 application/octet-stream 324.5172ms
+2021-10-17 13:09:30.760 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Reflection.Emit.Lightweight.dll - - - 200 14216 application/octet-stream 318.2581ms
+2021-10-17 13:09:30.759 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Numerics.dll - - - 200 14720 application/octet-stream 325.2140ms
+2021-10-17 13:09:30.762 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Xml.dll - - - 200 22912 application/octet-stream 333.7998ms
+2021-10-17 13:09:30.763 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Runtime.Handles.dll - - - 200 14216 application/octet-stream 319.6868ms
+2021-10-17 13:09:30.763 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Threading.Timer.dll - - - 200 14216 application/octet-stream 323.4594ms
+2021-10-17 13:09:30.765 +02:00 [INF] Sending file. Request path: '/_framework/System.Text.Encodings.Web.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Text.Encodings.Web.dll'
+2021-10-17 13:09:30.768 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Threading.Channels.dll - - - 200 50056 application/octet-stream 312.7558ms
+2021-10-17 13:09:30.767 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Runtime.InteropServices.RuntimeInformation.dll - - - 200 19336 application/octet-stream 320.6101ms
+2021-10-17 13:09:30.764 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Numerics.Vectors.dll - - - 200 14216 application/octet-stream 314.8475ms
+2021-10-17 13:09:30.771 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.VisualBasic.dll - - - 200 16776 application/octet-stream 315.9907ms
+2021-10-17 13:09:30.772 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Reflection.dll - - - 200 15240 application/octet-stream 305.2941ms
+2021-10-17 13:09:30.772 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Xml.XPath.dll - - - 200 14728 application/octet-stream 306.5276ms
+2021-10-17 13:09:30.773 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Resources.Reader.dll - - - 200 14216 application/octet-stream 301.2738ms
+2021-10-17 13:09:30.774 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Runtime.CompilerServices.VisualC.dll - - - 200 16768 application/octet-stream 311.8427ms
+2021-10-17 13:09:30.776 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Transactions.dll - - - 200 15752 application/octet-stream 302.9731ms
+2021-10-17 13:09:30.778 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Threading.Thread.dll - - - 200 14728 application/octet-stream 292.8515ms
+2021-10-17 13:09:30.778 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Reflection.Extensions.dll - - - 200 14216 application/octet-stream 294.5311ms
+2021-10-17 13:09:30.776 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.ServiceProcess.dll - - - 200 15240 application/octet-stream 297.8064ms
+2021-10-17 13:09:30.780 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Threading.ThreadPool.dll - - - 200 14216 application/octet-stream 319.3703ms
+2021-10-17 13:09:30.682 +02:00 [INF] Sending file. Request path: '/_framework/System.Net.WebSockets.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.WebSockets.dll'
+2021-10-17 13:09:30.783 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Runtime.Serialization.dll - - - 200 16264 application/octet-stream 295.4705ms
+2021-10-17 13:09:30.786 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Security.Cryptography.Encoding.dll - - - 200 25480 application/octet-stream 295.7047ms
+2021-10-17 13:09:30.782 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Runtime.Extensions.dll - - - 200 16776 application/octet-stream 311.7719ms
+2021-10-17 13:09:30.784 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Threading.Tasks.Extensions.dll - - - 200 14728 application/octet-stream 253.9240ms
+2021-10-17 13:09:30.788 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Security.Principal.Windows.dll - - - 200 30592 application/octet-stream 291.7052ms
+2021-10-17 13:09:30.790 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Net.WebProxy.dll - - - 200 19848 application/octet-stream 260.3138ms
+2021-10-17 13:09:30.791 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.Extensions.Logging.Abstractions.dll - - - 200 52616 application/octet-stream 278.3339ms
+2021-10-17 13:09:30.793 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Text.Encoding.dll - - - 200 14728 application/octet-stream 226.0901ms
+2021-10-17 13:09:30.793 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Xml.XDocument.dll - - - 200 14728 application/octet-stream 242.8428ms
+2021-10-17 13:09:30.784 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Resources.Writer.dll - - - 200 25984 application/octet-stream 310.9814ms
+2021-10-17 13:09:30.795 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Runtime.Intrinsics.dll - - - 200 15240 application/octet-stream 216.5218ms
+2021-10-17 13:09:30.797 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Security.Principal.dll - - - 200 14216 application/octet-stream 282.9159ms
+2021-10-17 13:09:30.798 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/BlazorAppExampleSink.Client.dll - - - 200 17408 application/octet-stream 315.2134ms
+2021-10-17 13:09:30.799 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Security.Cryptography.Csp.dll - - - 200 31624 application/octet-stream 299.5864ms
+2021-10-17 13:09:30.797 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Xml.Serialization.dll - - - 200 15240 application/octet-stream 303.1429ms
+2021-10-17 13:09:30.802 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Windows.dll - - - 200 15240 application/octet-stream 306.1004ms
+2021-10-17 13:09:30.803 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Web.HttpUtility.dll - - - 200 26504 application/octet-stream 283.8083ms
+2021-10-17 13:09:30.804 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Xml.Linq.dll - - - 200 15240 application/octet-stream 303.3763ms
+2021-10-17 13:09:30.806 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Reflection.TypeExtensions.dll - - - 200 22408 application/octet-stream 288.4522ms
+2021-10-17 13:09:30.806 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Threading.dll - - - 200 43912 application/octet-stream 295.9379ms
+2021-10-17 13:09:30.808 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.IO.Compression.ZipFile.dll - - - 200 23432 application/octet-stream 759.3306ms
+2021-10-17 13:09:30.809 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Resources.ResourceManager.dll - - - 200 14728 application/octet-stream 279.4258ms
+2021-10-17 13:09:30.811 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Runtime.Serialization.Formatters.dll - - - 200 61832 application/octet-stream 248.3728ms
+2021-10-17 13:09:30.811 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Threading.Overlapped.dll - - - 200 14216 application/octet-stream 267.1657ms
+2021-10-17 13:09:30.804 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.ServiceModel.Web.dll - - - 200 15752 application/octet-stream 268.4997ms
+2021-10-17 13:09:30.813 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Runtime.dll - - - 200 38280 application/octet-stream 237.2590ms
+2021-10-17 13:09:30.788 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/BlazorAppExampleSink.Shared.dll - - - 200 4608 application/octet-stream 232.6032ms
+2021-10-17 13:09:30.816 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Xml.XmlDocument.dll - - - 200 14728 application/octet-stream 248.9727ms
+2021-10-17 13:09:30.816 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Security.dll - - - 200 17288 application/octet-stream 261.8922ms
+2021-10-17 13:09:30.817 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Runtime.CompilerServices.Unsafe.dll - - - 200 15240 application/octet-stream 276.8308ms
+2021-10-17 13:09:30.816 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Runtime.Loader.dll - - - 200 14216 application/octet-stream 266.7658ms
+2021-10-17 13:09:30.822 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/WindowsBase.dll - - - 200 15752 application/octet-stream 268.9029ms
+2021-10-17 13:09:30.822 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Xml.XPath.XDocument.dll - - - 200 15240 application/octet-stream 244.5744ms
+2021-10-17 13:09:30.823 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Net.WebHeaderCollection.dll - - - 200 32648 application/octet-stream 266.1325ms
+2021-10-17 13:09:30.826 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Private.Runtime.InteropServices.JavaScript.dll - - - 200 44936 application/octet-stream 303.5579ms
+2021-10-17 13:09:30.823 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.JSInterop.WebAssembly.dll - - - 200 18304 application/octet-stream 290.1664ms
+2021-10-17 13:09:30.820 +02:00 [INF] Sending file. Request path: '/_framework/System.Security.Cryptography.Primitives.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.Primitives.dll'
+2021-10-17 13:09:30.829 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Security.Cryptography.Cng.dll - - - 200 40328 application/octet-stream 250.1248ms
+2021-10-17 13:09:30.828 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Security.Cryptography.OpenSsl.dll - - - 200 25992 application/octet-stream 257.6787ms
+2021-10-17 13:09:30.828 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/BlazorAppExampleSink.Client.pdb - - - 200 13940 application/octet-stream 237.8995ms
+2021-10-17 13:09:30.831 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Runtime.Serialization.Xml.dll - - - 200 15240 application/octet-stream 236.1916ms
+2021-10-17 13:09:30.835 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.ValueTuple.dll - - - 200 14208 application/octet-stream 233.2349ms
+2021-10-17 13:09:30.835 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Xml.XmlSerializer.dll - - - 200 16776 application/octet-stream 249.2856ms
+2021-10-17 13:09:30.835 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Runtime.InteropServices.dll - - - 200 35208 application/octet-stream 243.5241ms
+2021-10-17 13:09:30.838 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Xml.ReaderWriter.dll - - - 200 20872 application/octet-stream 240.8292ms
+2021-10-17 13:09:30.836 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Security.SecureString.dll - - - 200 14208 application/octet-stream 234.6966ms
+2021-10-17 13:09:30.840 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Web.dll - - - 200 14728 application/octet-stream 227.6074ms
+2021-10-17 13:09:30.841 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Threading.Tasks.Parallel.dll - - - 200 51080 application/octet-stream 234.8957ms
+2021-10-17 13:09:30.831 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/BlazorAppExampleSink.Shared.pdb - - - 200 9592 application/octet-stream 237.7089ms
+2021-10-17 13:09:30.844 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.JSInterop.dll - - - 200 51592 application/octet-stream 877.9092ms
+2021-10-17 13:09:30.845 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Diagnostics.Process.dll - - - 200 40840 application/octet-stream 907.8408ms
+2021-10-17 13:09:30.845 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Collections.NonGeneric.dll - - - 200 46472 application/octet-stream 864.0267ms
+2021-10-17 13:09:30.848 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Collections.Concurrent.dll - - - 200 85384 application/octet-stream 853.6038ms
+2021-10-17 13:09:30.848 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Diagnostics.TextWriterTraceListener.dll - - - 200 30080 application/octet-stream 640.6763ms
+2021-10-17 13:09:30.851 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.AspNetCore.Authorization.dll - - - 200 43904 application/octet-stream 631.0668ms
+2021-10-17 13:09:30.850 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.Extensions.FileSystemGlobbing.dll - - - 200 39304 application/octet-stream 854.8110ms
+2021-10-17 13:09:30.849 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.ComponentModel.Primitives.dll - - - 200 36232 application/octet-stream 742.9027ms
+2021-10-17 13:09:30.853 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.IO.FileSystem.Watcher.dll - - - 200 25472 application/octet-stream 589.9721ms
+2021-10-17 13:09:30.854 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Diagnostics.TraceSource.dll - - - 200 52616 application/octet-stream 543.5544ms
+2021-10-17 13:09:30.847 +02:00 [INF] Sending file. Request path: '/_framework/Microsoft.Extensions.DependencyInjection.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.dll'
+2021-10-17 13:09:30.855 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.IO.MemoryMappedFiles.dll - - - 200 42376 application/octet-stream 509.7444ms
+2021-10-17 13:09:30.856 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Collections.Specialized.dll - - - 200 44936 application/octet-stream 470.6034ms
+2021-10-17 13:09:30.860 +02:00 [INF] Sending file. Request path: '/_framework/System.Linq.Queryable.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Linq.Queryable.dll'
+2021-10-17 13:09:30.857 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.Extensions.Options.dll - - - 200 54664 application/octet-stream 466.6069ms
+2021-10-17 13:09:30.860 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll - - - 200 44416 application/octet-stream 481.2557ms
+2021-10-17 13:09:30.862 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Reflection.DispatchProxy.dll - - - 200 35720 application/octet-stream 449.6050ms
+2021-10-17 13:09:30.684 +02:00 [INF] Sending file. Request path: '/_framework/System.Security.Cryptography.X509Certificates.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.X509Certificates.dll'
+2021-10-17 13:09:30.865 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Net.WebSockets.Client.dll - - - 200 42880 application/octet-stream 448.6134ms
+2021-10-17 13:09:30.865 +02:00 [INF] Sending file. Request path: '/_framework/System.Net.Primitives.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Primitives.dll'
+2021-10-17 13:09:30.864 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Text.Encodings.Web.dll - - - 200 66440 application/octet-stream 465.3403ms
+2021-10-17 13:09:30.866 +02:00 [INF] Sending file. Request path: '/_framework/System.Security.Cryptography.Algorithms.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.Algorithms.dll'
+2021-10-17 13:09:30.870 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Net.WebSockets.dll - - - 200 63880 application/octet-stream 292.0696ms
+2021-10-17 13:09:30.870 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.dll - - - 200 49032 application/octet-stream 309.2472ms
+2021-10-17 13:09:30.872 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/mscorlib.dll - - - 200 56712 application/octet-stream 267.1937ms
+2021-10-17 13:09:30.870 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Security.AccessControl.dll - - - 200 42376 application/octet-stream 366.0891ms
+2021-10-17 13:09:30.874 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.AspNetCore.Components.WebAssembly.dll - - - 200 67976 application/octet-stream 1055.6568ms
+2021-10-17 13:09:30.874 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Memory.dll - - - 200 58240 application/octet-stream 940.2254ms
+2021-10-17 13:09:30.876 +02:00 [INF] Sending file. Request path: '/_framework/System.Private.Uri.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Private.Uri.dll'
+2021-10-17 13:09:30.877 +02:00 [INF] Sending file. Request path: '/_framework/System.IO.Compression.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Compression.dll'
+2021-10-17 13:09:30.878 +02:00 [INF] Sending file. Request path: '/_framework/System.Collections.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Collections.dll'
+2021-10-17 13:09:30.880 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Diagnostics.DiagnosticSource.dll - - - 200 78728 application/octet-stream 877.4816ms
+2021-10-17 13:09:30.872 +02:00 [INF] Sending file. Request path: '/_framework/System.Runtime.Numerics.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Numerics.dll'
+2021-10-17 13:09:30.882 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.Extensions.DependencyInjection.dll - - - 200 74120 application/octet-stream 894.7780ms
+2021-10-17 13:09:30.882 +02:00 [INF] Sending file. Request path: '/_framework/Microsoft.AspNetCore.Components.Web.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.dll'
+2021-10-17 13:09:30.884 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.IO.FileSystem.dll - - - 200 89992 application/octet-stream 517.1065ms
+2021-10-17 13:09:30.883 +02:00 [INF] Sending file. Request path: '/_framework/System.ComponentModel.Annotations.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.ComponentModel.Annotations.dll'
+2021-10-17 13:09:30.886 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.IO.Pipelines.dll - - - 200 67464 application/octet-stream 482.3097ms
+2021-10-17 13:09:30.883 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Formats.Asn1.dll - - - 200 78728 application/octet-stream 512.3577ms
+2021-10-17 13:09:30.867 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Security.Claims.dll - - - 200 50560 application/octet-stream 325.9098ms
+2021-10-17 13:09:30.889 +02:00 [INF] Sending file. Request path: '/_framework/System.Net.Mail.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Mail.dll'
+2021-10-17 13:09:30.891 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Linq.Queryable.dll - - - 200 78216 application/octet-stream 495.9790ms
+2021-10-17 13:09:30.892 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Collections.dll - - - 200 94088 application/octet-stream 936.6112ms
+2021-10-17 13:09:30.889 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Security.Cryptography.Primitives.dll - - - 200 55168 application/octet-stream 333.0733ms
+2021-10-17 13:09:30.892 +02:00 [INF] Sending file. Request path: '/_framework/netstandard.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\netstandard.dll'
+2021-10-17 13:09:30.894 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Security.Cryptography.Algorithms.dll - - - 200 80768 application/octet-stream 455.0797ms
+2021-10-17 13:09:30.894 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Security.Cryptography.X509Certificates.dll - - - 200 57736 application/octet-stream 307.9464ms
+2021-10-17 13:09:30.897 +02:00 [INF] Sending file. Request path: '/_framework/System.Private.Xml.Linq.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Private.Xml.Linq.dll'
+2021-10-17 13:09:30.891 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Net.Primitives.dll - - - 200 94600 application/octet-stream 487.7691ms
+2021-10-17 13:09:30.899 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Private.Uri.dll - - - 200 98696 application/octet-stream 289.2059ms
+2021-10-17 13:09:30.900 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Runtime.Numerics.dll - - - 200 74632 application/octet-stream 310.2600ms
+2021-10-17 13:09:30.901 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.ComponentModel.Annotations.dll - - - 200 89984 application/octet-stream 832.2785ms
+2021-10-17 13:09:30.903 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/netstandard.dll - - - 200 99720 application/octet-stream 481.0492ms
+2021-10-17 13:09:30.904 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.IO.Compression.dll - - - 200 101760 application/octet-stream 956.3011ms
+2021-10-17 13:09:30.901 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.AspNetCore.Components.Web.dll - - - 200 98696 application/octet-stream 926.9431ms
+2021-10-17 13:09:30.688 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Net.Requests.dll - - - 200 45448 application/octet-stream 733.5855ms
+2021-10-17 13:09:30.908 +02:00 [INF] Sending file. Request path: '/_framework/System.Linq.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Linq.dll'
+2021-10-17 13:09:30.909 +02:00 [INF] Sending file. Request path: '/_framework/System.Transactions.Local.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Transactions.Local.dll'
+2021-10-17 13:09:30.909 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Net.Mail.dll - - - 200 102792 application/octet-stream 517.3576ms
+2021-10-17 13:09:30.908 +02:00 [INF] Sending file. Request path: '/_framework/Microsoft.AspNetCore.Components.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll'
+2021-10-17 13:09:30.911 +02:00 [INF] Sending file. Request path: '/_framework/System.Collections.Immutable.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Collections.Immutable.dll'
+2021-10-17 13:09:30.914 +02:00 [INF] Sending file. Request path: '/_framework/System.Threading.Tasks.Dataflow.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Tasks.Dataflow.dll'
+2021-10-17 13:09:30.914 +02:00 [INF] Sending file. Request path: '/_framework/System.Linq.Parallel.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Linq.Parallel.dll'
+2021-10-17 13:09:30.915 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Transactions.Local.dll - - - 200 152448 application/octet-stream 391.6181ms
+2021-10-17 13:09:30.918 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.AspNetCore.Components.dll - - - 200 180104 application/octet-stream 1041.3210ms
+2021-10-17 13:09:30.916 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Linq.dll - - - 200 141192 application/octet-stream 549.6736ms
+2021-10-17 13:09:30.922 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Collections.Immutable.dll - - - 200 185728 application/octet-stream 992.1695ms
+2021-10-17 13:09:30.921 +02:00 [INF] Sending file. Request path: '/_framework/System.ComponentModel.TypeConverter.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.ComponentModel.TypeConverter.dll'
+2021-10-17 13:09:30.923 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Threading.Tasks.Dataflow.dll - - - 200 169864 application/octet-stream 500.3194ms
+2021-10-17 13:09:30.921 +02:00 [INF] Sending file. Request path: '/_framework/System.Text.RegularExpressions.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Text.RegularExpressions.dll'
+2021-10-17 13:09:30.923 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Linq.Parallel.dll - - - 200 224648 application/octet-stream 975.8830ms
+2021-10-17 13:09:30.909 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Private.Xml.Linq.dll - - - 200 152456 application/octet-stream 452.3035ms
+2021-10-17 13:09:30.931 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.ComponentModel.TypeConverter.dll - - - 200 269192 application/octet-stream 925.1570ms
+2021-10-17 13:09:30.931 +02:00 [INF] Sending file. Request path: '/_framework/Microsoft.CSharp.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.CSharp.dll'
+2021-10-17 13:09:30.931 +02:00 [INF] Sending file. Request path: '/_framework/Microsoft.VisualBasic.Core.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.VisualBasic.Core.dll'
+2021-10-17 13:09:30.937 +02:00 [INF] Sending file. Request path: '/_framework/System.Net.Http.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Http.dll'
+2021-10-17 13:09:30.941 +02:00 [INF] Sending file. Request path: '/_framework/System.Reflection.Metadata.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.Metadata.dll'
+2021-10-17 13:09:30.940 +02:00 [INF] Sending file. Request path: '/_framework/System.Text.Json.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Text.Json.dll'
+2021-10-17 13:09:30.943 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.CSharp.dll - - - 200 302472 application/octet-stream 961.2437ms
+2021-10-17 13:09:30.949 +02:00 [INF] Sending file. Request path: '/_framework/System.Linq.Expressions.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Linq.Expressions.dll'
+2021-10-17 13:09:30.949 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Net.Http.dll - - - 200 267144 application/octet-stream 376.8113ms
+2021-10-17 13:09:30.954 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Text.Json.dll - - - 200 333184 application/octet-stream 429.7425ms
+2021-10-17 13:09:30.949 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Reflection.Metadata.dll - - - 200 452488 application/octet-stream 536.2780ms
+2021-10-17 13:09:30.952 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/Microsoft.VisualBasic.Core.dll - - - 200 418696 application/octet-stream 1003.2431ms
+2021-10-17 13:09:30.937 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Text.RegularExpressions.dll - - - 200 189320 application/octet-stream 398.8993ms
+2021-10-17 13:09:30.959 +02:00 [INF] Sending file. Request path: '/_framework/System.Text.Encoding.CodePages.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Text.Encoding.CodePages.dll'
+2021-10-17 13:09:30.962 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Linq.Expressions.dll - - - 200 559496 application/octet-stream 820.2413ms
+2021-10-17 13:09:30.970 +02:00 [INF] Sending file. Request path: '/_framework/System.Private.DataContractSerialization.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Private.DataContractSerialization.dll'
+2021-10-17 13:09:30.972 +02:00 [INF] Sending file. Request path: '/_framework/System.Data.Common.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Data.Common.dll'
+2021-10-17 13:09:30.975 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Text.Encoding.CodePages.dll - - - 200 737672 application/octet-stream 466.4453ms
+2021-10-17 13:09:30.977 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Private.DataContractSerialization.dll - - - 200 777088 application/octet-stream 527.2438ms
+2021-10-17 13:09:30.979 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Data.Common.dll - - - 200 978312 application/octet-stream 1015.4686ms
+2021-10-17 13:09:31.121 +02:00 [INF] Sending file. Request path: '/_framework/System.Private.Xml.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Private.Xml.dll'
+2021-10-17 13:09:31.127 +02:00 [INF] Sending file. Request path: '/_framework/System.Private.CoreLib.dll'. Physical path: 'C:\Users\marco\source\repos\BlazorAppExampleSink\Client\bin\Debug\net5.0\wwwroot\_framework\System.Private.CoreLib.dll'
+2021-10-17 13:09:31.141 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Private.Xml.dll - - - 200 3082112 application/octet-stream 595.1420ms
+2021-10-17 13:09:31.157 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44322/_framework/System.Private.CoreLib.dll - - - 200 3101576 application/octet-stream 697.0092ms
+2021-10-17 13:12:05.054 +02:00 [INF] Starting web host
